@@ -3,6 +3,7 @@ main {
         padding-left: 24px;
         padding-right: 24px;
         section.main__hero{
+            margin-bottom: 15%;
             .main__h1{
                 font-size: 50px;
                 line-height: 48px;
@@ -14,7 +15,7 @@ main {
             .main__description{
                 color:$grey;
                 line-height: 26px;
-                font-weight: 500;
+                font-weight: 600;
                 margin-bottom: 10%;
             }
             .ul__container{
