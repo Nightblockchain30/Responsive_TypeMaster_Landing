@@ -29,16 +29,14 @@ header div.container ul li a.container__button {
   box-sizing: border-box;
 }
 
-body {
+main .container {
   background-image: url(../../img/mobile/keyboard_hero_mobile.png);
   background-repeat: no-repeat;
-  background-position: 120% 440%;
-  background-size: 395px;
-}
-
-main .container {
+  background-position: 100% 70%;
+  background-size: 390px;
   padding-left: 24px;
   padding-right: 24px;
+  height: 900px;
 }
 main .container section.main__hero {
   margin-bottom: 15%;
@@ -79,6 +77,11 @@ main .container section.main__hero .ul__container .main__subcontainer-li {
   text-transform: uppercase;
   font-weight: 700;
   padding-right: 42px;
+}
+main .container section.main__imgs {
+  margin-top: 480px;
+  display: flex;
+  justify-content: space-around;
 }
 
 html * {
