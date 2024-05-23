@@ -1,0 +1,37 @@
+main {
+    .container{
+        padding-left: 24px;
+        padding-right: 24px;
+        section.main__hero{
+            .main__h1{
+                font-size: 50px;
+                line-height: 48px;
+                font-weight: 900;
+                text-transform: uppercase;
+                color: $black_hover;
+                margin-bottom: 10%;
+            }
+            .main__description{
+                color:$grey;
+                line-height: 26px;
+                font-weight: 500;
+                margin-bottom: 10%;
+            }
+            .ul__container{
+                list-style: none;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .main__subcontainer-button{
+                    @include button($orange,white);
+                }
+                .main__subcontainer-li{
+                    color: $grey;
+                    text-transform: uppercase;
+                    font-weight: 700;
+                    padding-right: 42px;
+                }
+            }
+        }
+    }
+}

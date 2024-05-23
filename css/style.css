@@ -13,12 +13,13 @@ header div.container ul li a.container__button {
   text-decoration-line: none;
   list-style: none;
   display: inline-block;
-  padding: 10px 24px;
+  padding: 14px 16px;
   background-color: #E8EFF2;
-  border-radius: 28px;
+  border-radius: 8px;
   color: #162542;
-  font-weight: bold;
+  font-weight: 600;
   text-transform: uppercase;
+  font-weight: 700;
 }
 
 * {
@@ -28,9 +29,46 @@ header div.container ul li a.container__button {
   box-sizing: border-box;
 }
 
-.container {
-  padding-left: 16px;
-  padding-right: 16px;
+main .container {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+main .container section.main__hero .main__h1 {
+  font-size: 50px;
+  line-height: 48px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #162542;
+  margin-bottom: 10%;
+}
+main .container section.main__hero .main__description {
+  color: #7B8BAD;
+  line-height: 26px;
+  font-weight: 500;
+  margin-bottom: 10%;
+}
+main .container section.main__hero .ul__container {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .container section.main__hero .ul__container .main__subcontainer-button {
+  text-decoration-line: none;
+  list-style: none;
+  display: inline-block;
+  padding: 14px 16px;
+  background-color: #F16718;
+  border-radius: 8px;
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+main .container section.main__hero .ul__container .main__subcontainer-li {
+  color: #7B8BAD;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding-right: 42px;
 }
 
 html * {
