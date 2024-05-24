@@ -1,3 +1,9 @@
+.container__footer {
+  margin-top: 96px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
 header div.container {
   padding-left: 24px;
   padding-right: 24px;
@@ -38,7 +44,7 @@ main div.container section.main__hero {
   margin-bottom: 15%;
 }
 main div.container section.main__hero .main__h1 {
-  font-size: 50px;
+  font-size: 48px;
   line-height: 48px;
   font-weight: 900;
   text-transform: uppercase;
@@ -83,6 +89,9 @@ main div.container section.main__hero .ul__container .main__subcontainer-li {
   justify-content: end;
 }
 
+.container__imgs {
+  margin-bottom: 75px;
+}
 .container__imgs figure {
   display: flex;
   justify-content: left;
