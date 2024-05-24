@@ -5,4 +5,9 @@
         justify-content:left;
         column-gap: 24px;
     }
+    @include breakpoint(tablet){
+        display: flex;
+        justify-content: center;
+
+    }
 }

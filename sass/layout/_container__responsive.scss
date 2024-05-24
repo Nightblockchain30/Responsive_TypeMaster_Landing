@@ -1,0 +1,8 @@
+div.container__responsive{
+    // display: none;
+    @include breakpoint(tablet){
+        display: flex;
+        margin-bottom: 10%;
+        align-items: center;
+    }
+}

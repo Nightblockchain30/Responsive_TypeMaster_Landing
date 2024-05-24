@@ -1,12 +1,15 @@
 header{
     div.container {
-        padding-left: 24px;
-        padding-right: 24px;
+        margin-left: 24px;
+        margin-right: 24px;
         margin-top: 23px;
         margin-bottom: 64px ;
         display: flex;
         justify-content: space-between;
-
+        @include breakpoint(tablet){
+            margin-left: 39px;
+            margin-right: 39px;
+        }
         ul li{
             list-style: none;
             a.container__button{
