@@ -1,0 +1,33 @@
+.container__articles{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    row-gap: 64px;
+    min-width: 327px;
+    margin-left: 24px;
+    margin-right: 24px;
+
+    // .article{
+    //     // width: 327px;
+    // }
+    
+    .article{
+        &-img{
+            margin-bottom: 48px;
+        }
+        &-title{
+            margin-bottom: 24px;
+            font-size: 24px;
+            font-weight: 800;
+            color: $black_hover;
+            span {
+                display: block;
+                text-align: center;
+            }
+        }
+        &-description{
+            line-height: 26px;
+            color: $grey;
+        }
+    }
+}

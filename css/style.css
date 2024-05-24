@@ -3,6 +3,12 @@
   margin-bottom: 50px;
   text-align: center;
 }
+.container__footer .footer__p {
+  color: #7B8BAD;
+}
+.container__footer .footer__p span {
+  font-weight: 700;
+}
 
 header div.container {
   padding-left: 24px;
@@ -36,8 +42,8 @@ header div.container ul li a.container__button {
 }
 
 main div.container {
-  padding-left: 24px;
-  padding-right: 24px;
+  margin-left: 24px;
+  margin-right: 24px;
   height: 350px;
 }
 main div.container section.main__hero {
@@ -54,7 +60,7 @@ main div.container section.main__hero .main__h1 {
 main div.container section.main__hero .main__description {
   color: #7B8BAD;
   line-height: 26px;
-  font-weight: 600;
+  font-weight: 500;
   margin-bottom: 10%;
 }
 main div.container section.main__hero .ul__container {
@@ -119,7 +125,34 @@ main div.container section.main__hero .ul__container .main__subcontainer-li {
   text-align: center;
   line-height: 26px;
   color: #7B8BAD;
-  max-width: 327px;
+  min-width: 327px;
+}
+
+.container__articles {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  row-gap: 64px;
+  min-width: 327px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+.container__articles .article-img {
+  margin-bottom: 48px;
+}
+.container__articles .article-title {
+  margin-bottom: 24px;
+  font-size: 24px;
+  font-weight: 800;
+  color: #162542;
+}
+.container__articles .article-title span {
+  display: block;
+  text-align: center;
+}
+.container__articles .article-description {
+  line-height: 26px;
+  color: #7B8BAD;
 }
 
 html * {

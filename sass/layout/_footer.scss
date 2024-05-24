@@ -2,4 +2,10 @@
     margin-top: 96px;
     margin-bottom: 50px;
     text-align: center;
+    .footer__p {
+        color: $grey;
+        span {
+            font-weight: 700;
+        }
+    }
 }
