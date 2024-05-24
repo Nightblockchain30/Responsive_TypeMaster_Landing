@@ -1,12 +1,8 @@
 main {
-    .container{
-        background-image: url(../../img/mobile/keyboard_hero_mobile.png);
-        background-repeat: no-repeat;
-        background-position: 100% 70%;
-        background-size: 390px;
+    div.container{
         padding-left: 24px;
         padding-right: 24px;
-        height: 900px;
+        height: 350px;
         section.main__hero{
             margin-bottom: 15%;
             .main__h1{
@@ -38,11 +34,6 @@ main {
                     padding-right: 42px;
                 }
             }
-        }
-        section.main__imgs{
-            margin-top: 480px;
-            display: flex;
-            justify-content: space-around;
         }
     }
 }

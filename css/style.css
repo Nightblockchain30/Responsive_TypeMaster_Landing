@@ -29,19 +29,15 @@ header div.container ul li a.container__button {
   box-sizing: border-box;
 }
 
-main .container {
-  background-image: url(../../img/mobile/keyboard_hero_mobile.png);
-  background-repeat: no-repeat;
-  background-position: 100% 70%;
-  background-size: 390px;
+main div.container {
   padding-left: 24px;
   padding-right: 24px;
-  height: 900px;
+  height: 350px;
 }
-main .container section.main__hero {
+main div.container section.main__hero {
   margin-bottom: 15%;
 }
-main .container section.main__hero .main__h1 {
+main div.container section.main__hero .main__h1 {
   font-size: 50px;
   line-height: 48px;
   font-weight: 900;
@@ -49,19 +45,19 @@ main .container section.main__hero .main__h1 {
   color: #162542;
   margin-bottom: 10%;
 }
-main .container section.main__hero .main__description {
+main div.container section.main__hero .main__description {
   color: #7B8BAD;
   line-height: 26px;
   font-weight: 600;
   margin-bottom: 10%;
 }
-main .container section.main__hero .ul__container {
+main div.container section.main__hero .ul__container {
   list-style: none;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-main .container section.main__hero .ul__container .main__subcontainer-button {
+main div.container section.main__hero .ul__container .main__subcontainer-button {
   text-decoration-line: none;
   list-style: none;
   display: inline-block;
@@ -72,16 +68,25 @@ main .container section.main__hero .ul__container .main__subcontainer-button {
   font-weight: 600;
   text-transform: uppercase;
 }
-main .container section.main__hero .ul__container .main__subcontainer-li {
+main div.container section.main__hero .ul__container .main__subcontainer-li {
   color: #7B8BAD;
   text-transform: uppercase;
   font-weight: 700;
   padding-right: 42px;
 }
-main .container section.main__imgs {
-  margin-top: 480px;
+
+.container__img-hero {
+  margin-bottom: 24px;
+}
+.container__img-hero figure {
   display: flex;
-  justify-content: space-around;
+  justify-content: end;
+}
+
+.container__imgs figure {
+  display: flex;
+  justify-content: left;
+  column-gap: 24px;
 }
 
 html * {
