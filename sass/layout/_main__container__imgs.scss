@@ -7,7 +7,21 @@
     }
     @include breakpoint(tablet){
         display: flex;
+        column-gap: 30px;
         justify-content: center;
-
+    }
+    .container__imgs-tablet{
+        display: none;
+        @include breakpoint(tablet){
+            display: block;
+            &-left{
+                margin-right: 24px;
+            }
+        }
+    }
+    .container__imgs-mobile{
+        @include breakpoint(tablet){
+            display: none;
+        }
     }
 }

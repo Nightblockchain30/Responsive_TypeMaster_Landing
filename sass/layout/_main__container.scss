@@ -8,7 +8,7 @@ main {
         }
         section.main__hero{
             @include breakpoint(tablet){
-            padding-top: 5%;
+            // padding-top: 5%;
             }
 
             figure.hero__figure-tablet{
