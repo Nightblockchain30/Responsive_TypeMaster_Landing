@@ -7,6 +7,7 @@
     margin-left: 24px;
     margin-right: 24px;
     margin-bottom: 75px;
+    min-width: 327px;
     @include breakpoint(tablet){
         display: flex;
         flex-direction: row;
@@ -27,7 +28,6 @@
                 text-align: left;
                 font-weight: 900;
                 color: $black_hover;
-
             }
         }
     }

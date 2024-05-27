@@ -6,10 +6,20 @@ header{
         margin-bottom: 64px ;
         display: flex;
         justify-content: space-between;
+        min-width: 327px;
         @include breakpoint(tablet){
             margin-left: 39px;
             margin-right: 39px;
+            margin-top: 40px;
         }
+
+        @include breakpoint(tablethorizontal){
+            margin-left: 59px;
+            margin-right: 59px;
+            margin-top: 49px;
+        }
+
+
         ul li{
             list-style: none;
             a.container__button{

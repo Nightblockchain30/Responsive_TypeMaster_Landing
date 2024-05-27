@@ -3,9 +3,7 @@ main {
         margin-left: 24px;
         margin-right: 24px;
         height: 350px;
-        @include breakpoint(tablet){
-            margin-left: 39px;
-        }
+        min-width: 327px;
         section.main__hero{
             margin-bottom: 15%;
             .main__h1{
@@ -27,6 +25,7 @@ main {
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
+                column-gap: 5px;
                 .main__subcontainer-button{
                     @include button($orange,white);
                 }

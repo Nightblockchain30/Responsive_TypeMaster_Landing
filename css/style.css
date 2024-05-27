@@ -2,6 +2,17 @@
   margin-top: 96px;
   margin-bottom: 50px;
   text-align: center;
+  min-width: 327px;
+}
+@media (min-width: 768px) {
+  .container__footer {
+    margin-bottom: 43px;
+  }
+}
+@media (min-width: 1024px) {
+  .container__footer {
+    margin-bottom: 43px;
+  }
 }
 .container__footer .footer__p {
   color: #7B8BAD;
@@ -17,11 +28,20 @@ header div.container {
   margin-bottom: 64px;
   display: flex;
   justify-content: space-between;
+  min-width: 327px;
 }
 @media (min-width: 768px) {
   header div.container {
     margin-left: 39px;
     margin-right: 39px;
+    margin-top: 40px;
+  }
+}
+@media (min-width: 1024px) {
+  header div.container {
+    margin-left: 59px;
+    margin-right: 59px;
+    margin-top: 49px;
   }
 }
 header div.container ul li {
@@ -51,11 +71,7 @@ main div.container {
   margin-left: 24px;
   margin-right: 24px;
   height: 350px;
-}
-@media (min-width: 768px) {
-  main div.container {
-    margin-left: 39px;
-  }
+  min-width: 327px;
 }
 main div.container section.main__hero {
   margin-bottom: 15%;
@@ -79,6 +95,7 @@ main div.container section.main__hero .ul__container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  column-gap: 5px;
 }
 main div.container section.main__hero .ul__container .main__subcontainer-button {
   text-decoration-line: none;
@@ -100,6 +117,7 @@ main div.container section.main__hero .ul__container .main__subcontainer-li {
 
 .container__img-hero {
   margin-bottom: 24px;
+  min-width: 327px;
 }
 .container__img-hero figure {
   display: flex;
@@ -160,6 +178,7 @@ main div.container section.main__hero .ul__container .main__subcontainer-li {
   margin-left: 24px;
   margin-right: 24px;
   margin-bottom: 75px;
+  min-width: 327px;
 }
 @media (min-width: 768px) {
   .container__pre-articles {
@@ -207,6 +226,7 @@ main div.container section.main__hero .ul__container .main__subcontainer-li {
   min-width: 327px;
   margin-left: 24px;
   margin-right: 24px;
+  min-width: 327px;
 }
 @media (min-width: 768px) {
   .container__articles {
@@ -240,6 +260,7 @@ main div.container section.main__hero .ul__container .main__subcontainer-li {
 .container__articles .article-description {
   line-height: 26px;
   color: #7B8BAD;
+  min-width: 327px;
 }
 @media (min-width: 768px) {
   .container__articles .article-description {
@@ -252,6 +273,12 @@ main div.container section.main__hero .ul__container .main__subcontainer-li {
     display: flex;
     margin-bottom: 3%;
     align-items: center;
+    margin-left: 39px;
+  }
+}
+@media (min-width: 1024px) {
+  div.container__responsive {
+    margin-left: 59px;
   }
 }
 

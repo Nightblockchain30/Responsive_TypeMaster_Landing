@@ -4,5 +4,10 @@ div.container__responsive{
         display: flex;
         margin-bottom: 3%;
         align-items: center;
+        margin-left: 39px;
+
+    }
+    @include breakpoint(tablethorizontal){
+        margin-left: 59px;
     }
 }
