@@ -17,6 +17,11 @@
         margin-right: 40px;
     }
 
+    @include breakpoint(tablethorizontal){
+        margin-left: 59px;
+
+    }
+
     .articles__h2{
         span{
             display: block;

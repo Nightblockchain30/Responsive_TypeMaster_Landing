@@ -4,6 +4,9 @@ main {
         margin-right: 24px;
         height: 350px;
         min-width: 327px;
+        @include breakpoint(tablet){
+            margin-left: 0;
+        }
         section.main__hero{
             margin-bottom: 15%;
             .main__h1{
