@@ -7,19 +7,6 @@ main {
             margin-left: 39px;
         }
         section.main__hero{
-            @include breakpoint(tablet){
-            // padding-top: 5%;
-            }
-
-            figure.hero__figure-tablet{
-                display: none;
-            }
-
-            figure.hero__figure- img{
-                @include breakpoint(tablet){
-                    display: none;
-                }
-            }
             margin-bottom: 15%;
             .main__h1{
                 font-size: 48px;

@@ -4,7 +4,19 @@
         display: flex;
         justify-content: end;
     }
-    .hero__figure-tablet{
-        display: none;
+    .img__hero-mobile{
+        @include breakpoint(tablet){
+            display: none;
+        }
     }
+    
+    
+    .img__hero-tablet{
+        display: none;
+        @include breakpoint(tablet){
+            display: block;
+        }
+    }
+
+
 }

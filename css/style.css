@@ -60,14 +60,6 @@ main div.container {
 main div.container section.main__hero {
   margin-bottom: 15%;
 }
-main div.container section.main__hero figure.hero__figure-tablet {
-  display: none;
-}
-@media (min-width: 768px) {
-  main div.container section.main__hero figure.hero__figure- img {
-    display: none;
-  }
-}
 main div.container section.main__hero .main__h1 {
   font-size: 48px;
   line-height: 48px;
@@ -113,8 +105,18 @@ main div.container section.main__hero .ul__container .main__subcontainer-li {
   display: flex;
   justify-content: end;
 }
-.container__img-hero .hero__figure-tablet {
+@media (min-width: 768px) {
+  .container__img-hero .img__hero-mobile {
+    display: none;
+  }
+}
+.container__img-hero .img__hero-tablet {
   display: none;
+}
+@media (min-width: 768px) {
+  .container__img-hero .img__hero-tablet {
+    display: block;
+  }
 }
 
 .container__imgs {
@@ -159,6 +161,16 @@ main div.container section.main__hero .ul__container .main__subcontainer-li {
   margin-right: 24px;
   margin-bottom: 75px;
 }
+@media (min-width: 768px) {
+  .container__pre-articles {
+    display: flex;
+    flex-direction: row;
+    column-gap: 5px;
+    justify-content: space-between;
+    margin-left: 39px;
+    margin-right: 40px;
+  }
+}
 .container__pre-articles .articles__h2 span {
   display: block;
   text-align: center;
@@ -169,7 +181,6 @@ main div.container section.main__hero .ul__container .main__subcontainer-li {
 @media (min-width: 768px) {
   .container__pre-articles .articles__h2 span {
     text-align: left;
-    font-size: 28px;
     font-weight: 900;
     color: #162542;
   }
@@ -184,15 +195,7 @@ main div.container section.main__hero .ul__container .main__subcontainer-li {
   .container__pre-articles .articles__description {
     text-align: left;
     margin-left: 70px;
-  }
-}
-@media (min-width: 768px) {
-  .container__pre-articles {
-    display: flex;
-    flex-direction: row;
-    column-gap: 5px;
-    margin-left: 39px;
-    margin-right: 40px;
+    width: 398px;
   }
 }
 
