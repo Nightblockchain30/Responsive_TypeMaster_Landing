@@ -19,7 +19,13 @@
 
     @include breakpoint(tablethorizontal){
         margin-left: 59px;
+    }
 
+    @include breakpoint(desktop){
+        margin-left: 165px;
+        margin-right: 165px;
+        display: flex;
+        flex-direction: column;
     }
 
     .articles__h2{

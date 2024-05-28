@@ -19,6 +19,12 @@ header{
             margin-top: 49px;
         }
 
+        @include breakpoint(desktop){
+            margin-left: 165px;
+            margin-right: 165px;
+            margin-top: 55px;
+        }
+
 
         ul li{
             list-style: none;

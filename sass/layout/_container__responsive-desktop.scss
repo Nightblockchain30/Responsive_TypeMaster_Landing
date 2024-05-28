@@ -1,0 +1,6 @@
+.container__responsive-desktop{
+    @include breakpoint(desktop){
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}

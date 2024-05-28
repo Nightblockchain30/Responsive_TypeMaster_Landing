@@ -17,9 +17,16 @@
         margin-right: 40px;
         margin-top: 120px;
     }
-    
+
     @include breakpoint(tablethorizontal){
         margin-left: 59px;
+    }
+
+    @include breakpoint(desktop){
+        margin-left: 165px;
+        margin-right: 165px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 
     .article{

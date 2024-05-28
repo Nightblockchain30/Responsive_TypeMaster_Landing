@@ -9,6 +9,13 @@
     @include breakpoint(tablethorizontal){
         margin-bottom: 43px;
         margin-left: 59px;
+        margin-right: 59px;
+
+    }
+
+    @include breakpoint(desktop){
+        margin-left: 165px;
+        margin-right: 165px;
     }
 
     .footer__p {
