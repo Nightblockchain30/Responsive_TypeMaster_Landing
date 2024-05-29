@@ -37,6 +37,7 @@ header div.container {
   display: flex;
   justify-content: space-between;
   min-width: 327px;
+  background-color: green;
 }
 @media (min-width: 768px) {
   header div.container {
