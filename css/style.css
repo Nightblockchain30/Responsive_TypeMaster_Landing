@@ -37,7 +37,6 @@ header div.container {
   display: flex;
   justify-content: space-between;
   min-width: 327px;
-  background-color: green;
 }
 @media (min-width: 768px) {
   header div.container {
@@ -311,7 +310,6 @@ main div.container section.main__hero .ul__container .main__subcontainer-li {
   min-width: 327px;
   margin-left: 24px;
   margin-right: 24px;
-  min-width: 327px;
 }
 @media (min-width: 768px) {
   .container__articles {
@@ -363,6 +361,11 @@ main div.container section.main__hero .ul__container .main__subcontainer-li {
 @media (min-width: 768px) {
   .container__articles .article-description {
     min-width: 281px;
+  }
+}
+@media (min-width: 1200px) {
+  .container__articles .article-description {
+    min-width: 0;
   }
 }
 

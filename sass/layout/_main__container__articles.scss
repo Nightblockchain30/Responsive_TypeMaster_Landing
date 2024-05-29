@@ -1,4 +1,4 @@
-.container__articles{
+.container__articles {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -6,9 +6,8 @@
     min-width: 327px;
     margin-left: 24px;
     margin-right: 24px;
-    min-width: 327px;
 
-    @include breakpoint(tablet){
+    @include breakpoint(tablet) {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 20px;
@@ -18,41 +17,50 @@
         margin-top: 120px;
     }
 
-    @include breakpoint(tablethorizontal){
+    @include breakpoint(tablethorizontal) {
         margin-left: 59px;
     }
 
-    @include breakpoint(desktop){
+    @include breakpoint(desktop) {
         margin-left: 165px;
         margin-right: 165px;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 
-    .article{
-        &-img{
+    .article {
+        &-img {
             margin-bottom: 48px;
         }
-        &-title{
+
+        &-title {
             margin-bottom: 24px;
             font-size: 24px;
             font-weight: 800;
             color: $black_hover;
+
             span {
                 display: block;
                 text-align: center;
-                @include breakpoint(tablet){
+
+                @include breakpoint(tablet) {
                     text-align: left;
 
                 }
             }
         }
-        &-description{
+
+        &-description {
             line-height: 26px;
             color: $grey;
             min-width: 327px;
-            @include breakpoint(tablet){
+
+            @include breakpoint(tablet) {
                 min-width: 281px;
+            }
+
+            @include breakpoint(desktop) {
+                min-width: 0;
             }
 
         }
