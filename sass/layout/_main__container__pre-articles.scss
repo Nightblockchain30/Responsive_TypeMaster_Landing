@@ -9,6 +9,15 @@
     margin-bottom: 75px;
     min-width: 327px;
 
+    @include breakpoint(desktop) {
+        display: flex;
+        flex-direction: column;
+        justify-content: center !important;
+        margin-bottom: 0px;
+        height: 488px;
+        margin-left: 125px !important;
+    }
+
     @include breakpoint(tablet) {
         display: flex;
         flex-direction: row;
@@ -45,7 +54,7 @@
         }
     }
 
-    .articles__description {
+    p.articles__description {
         text-align: center;
         line-height: 26px;
         color: $grey;
@@ -55,6 +64,11 @@
             text-align: left;
             margin-left: 70px;
             width: 398px;
+        }
+
+        @include breakpoint(desktop) {
+            min-width: 0 !important;
+            // ¿Sabeís por que sigue siend? //  width: 0;
         }
     }
 }

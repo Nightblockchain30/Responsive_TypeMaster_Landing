@@ -1,43 +1,57 @@
-.container__imgs{
+.container__imgs {
     margin-bottom: 75px;
-    figure{
+
+    figure {
         display: flex;
-        justify-content:left;
+        justify-content: left;
         column-gap: 24px;
     }
-    @include breakpoint(tablet){
+
+    @include breakpoint(tablet) {
         display: flex;
         column-gap: 30px;
         justify-content: center;
     }
-    .container__imgs-desktop{
+
+    @include breakpoint(desktop) {
+        margin-left: 165px;
+    }
+
+    .container__imgs-desktop {
         display: none;
-        @include breakpoint(tablet){
-            display:  none;
+
+        @include breakpoint(tablet) {
+            display: none;
         }
-        @include breakpoint(tablethorizontal){
-            display:  none;
+
+        @include breakpoint(tablethorizontal) {
+            display: none;
         }
-        @include breakpoint(desktop){
-            display: block;
+
+        @include breakpoint(desktop) {
+            display: flex;
         }
     }
 
 
-    .container__imgs-tablet{
+    .container__imgs-tablet {
         display: none;
-        @include breakpoint(tablet){
+
+        @include breakpoint(tablet) {
             display: block;
-            &-left{
+
+            &-left {
                 margin-right: 24px;
             }
         }
-        @include breakpoint(desktop){
+
+        @include breakpoint(desktop) {
             display: none;
         }
     }
-    .container__imgs-mobile{
-        @include breakpoint(tablet){
+
+    .container__imgs-mobile {
+        @include breakpoint(tablet) {
             display: none;
         }
     }
